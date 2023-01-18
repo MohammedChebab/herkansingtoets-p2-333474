@@ -15,7 +15,7 @@ class Autos extends Controller
     public function index()
     {
 
-        $result = $this->AutoModel->getLessen();
+        $result = $this->AutoModel->getAutos();
 
         $rows = "";
         foreach ($result as $Autoinfo) {
