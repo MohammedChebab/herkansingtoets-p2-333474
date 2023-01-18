@@ -1,6 +1,6 @@
 <h3><?= $data['title'] ?></h3>
 <a href="<?= URLROOT ?>/Instructeurs/create">Nieuw auto</a>
-<table>
+<table border="1">
     <thead>
         <th>Id</th>
         <th>Voornaam</th>

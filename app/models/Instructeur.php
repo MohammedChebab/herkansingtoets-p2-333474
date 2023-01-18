@@ -33,13 +33,13 @@ class Instructeur
         $this->db->query("INSERT INTO Instructeur (Id, 
                                                Voornaam, 
                                                Tussenvoegsel, 
-                                               Achternaam,, 
+                                               Achternaam,
                                                Mobiel,
                                                Datum_in_dienst)
                           VALUES              (:Id,
                                                :Voornaam, 
                                                :Tussenvoegsel, 
-                                               :Achternaam,, 
+                                               :Achternaam, 
                                                :Mobiel,
                                                :Datum_in_dienst)");
         $this->db->bind(':Id', NULL, PDO::PARAM_NULL);
