@@ -8,7 +8,7 @@ class Autos extends Controller
     public function __construct()
     {
         //we maken een object van de model class en stoppen dit in $lesModel
-        $this->AutoModel = $this->model('Les');
+        $this->AutoModel = $this->model('auto');
     }
 
 
